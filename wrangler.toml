@@ -1,12 +1,6 @@
 name = "kiss-worker"
 main = "src/index.js"
 compatibility_date = "2023-07-28"
-"kv_namespaces": [
-    {
-      "binding": "KV",
-      "id": "f5ed02a98f8c47a6a5118e977ae31bba",
-      
-      // Optional: preview_id used when running `wrangler dev` for local dev
-      "preview_id": "<ID_OF_PREVIEW_KV_NAMESPACE_FOR_LOCAL_DEVELOPMENT>"
-    }
+kv_namespaces = [
+    { binding = "KV", id = "f5ed02a98f8c47a6a5118e977ae31bba", preview_id = "f5ed02a98f8c47a6a5118e977ae31bba" }
 ]
